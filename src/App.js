@@ -15,22 +15,27 @@ function App() {
             <p>Salt Lake City</p>
           </div>
           <div className="temp">
-            <h1>65F</h1>
+            <h1>65°F</h1>
           </div>
           <div className="description">
             <p>Clouds</p>
           </div>
         </div>
-        <div className="bottom"></div>
-          <div className="feels">
-            <p>65F</p>
+        <div className="bottom">
+         <div className="feels">
+            <p className="bold">65°F</p>
+            <p>Feels Like</p>
           </div>
           <div className="humidity">
-            <p>10%</p>
+            <p className="bold">10%</p>
+            <p>Humidity</p>
           </div>
           <div className="wind">
-            <p>5 MPH</p>
+            <p className="bold">5 MPH</p>
+            <p>Wind Speed</p>
           </div>
+        </div>
+          
       </div>
     </div>
   );
