@@ -1,12 +1,16 @@
 # Weather App
 
 ### Created with Open Weather API
-https://openweathermap.org/
 
-#### Purpose of coding this app
+### Purpose of coding this app
 To successfully implement a third party API and display accurate weather information.
 
+#### Resources
+code along:
+https://www.youtube.com/watch?v=UjeXpct3p7M
 
+OpenWeatherAPI
+https://openweathermap.org/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
