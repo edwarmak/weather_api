@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Weather App
+
+### Created with Open Weather API
+https://openweathermap.org/
+
+#### Purpose of coding this app
+To successfully implement a third party API and display accurate weather information.
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
