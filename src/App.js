@@ -8,7 +8,7 @@ function App() {
   const [data,setData] = useState({})
   const [location, setLocation] = useState('')
   // below is the API url with API KEY inserted from .env file in order to push to github without publically displaying API key
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=7752019968c8320d3bb24be46f2a1e94`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=${API_KEY}`
   // search function to change location state upon search
   const searchLocation = (event) => {
     // wrap api call in IF statement to submit input on 'Enter'
