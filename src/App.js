@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+// import axios for api calls
 import axios from 'axios'
 // access API KEY from .env file
 const API_KEY = process.env.REACT_APP_WEATHER_API_KEY
